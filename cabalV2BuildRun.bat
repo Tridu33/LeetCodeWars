@@ -1,0 +1,1 @@
+cabal new-build && cabal v2-run
