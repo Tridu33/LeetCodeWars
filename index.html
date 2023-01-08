@@ -54,7 +54,7 @@
             
             <li class="nav-item" data-level="1"><a href="#welcome-to-leetcodewars" class="nav-link">Welcome to LeetCodeWars</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#deployment" class="nav-link">deployment</a>
+            <li class="nav-item" data-level="2"><a href="#deploy" class="nav-link">deploy</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -67,8 +67,26 @@
 
 <h1 id="welcome-to-leetcodewars">Welcome to LeetCodeWars</h1>
 <p>my code for LeetCode &amp; CodeWars.</p>
-<h2 id="deployment">deployment</h2>
-<pre><code class="language-md">mkdocs gh-deploy --clean &amp;&amp; mkdocs new . &amp;&amp; mkdocs build &amp;&amp; mkdocs serve
+<pre><code>cabal v2-build 
+cabal v2-run &lt;executable name&gt; [executable args]
+cabal v2-repl
+</code></pre>
+<p>or</p>
+<pre><code class="language-bash">cabal new-build &amp;&amp; cabal v2-run
+</code></pre>
+<p>Open javaOJ folder by IDEA.</p>
+<h2 id="deploy">deploy</h2>
+<ul>
+<li>gh-pages</li>
+</ul>
+<pre><code class="language-bash">cd docs &amp;&amp; mkdocs gh-deploy --clean &amp;&amp; mkdocs new . &amp;&amp; mkdocs build
+</code></pre>
+<pre><code class="language-bash">mkdocs serve
+</code></pre>
+<ul>
+<li>main</li>
+</ul>
+<pre><code class="language-bash">git status &amp;&amp; git add . &amp;&amp; git commit -m &quot;upgrade for my LeetCodeWars.&quot;  &amp;&amp; git push
 </code></pre></div>
             </div>
         </div>
@@ -150,5 +168,5 @@
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2023-01-08 07:37:53.825081+00:00
+Build Date UTC : 2023-01-08 07:40:24.716003+00:00
 -->
