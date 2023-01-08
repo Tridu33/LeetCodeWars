@@ -36,13 +36,11 @@ git status
 
 Write-Output "git add ."
 git add .
-git status
 
 Write-Output "git commit ..."
 git commit -m $TextBox1.Text
-git log 
 
 Write-Output "git push"
-# git push
+git push
 Write-Output "================结束命令执行==================="
 pause
