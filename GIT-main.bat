@@ -1,2 +1,1 @@
-git status && git add . && git commit -m "upgrade for my LeetCodeWars."  && git push
-pause
+git status && git add . && git commit -m "upgrade my LeetCodeWars."  && git push

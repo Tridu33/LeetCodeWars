@@ -6,7 +6,7 @@ package  com.tridu33.mineOJ;
 import java.lang.*;
 import java.util.*;
 
-public class Temp {
+public class  Temp {
     public static void main(String[] args) {
         Solution sol = new Temp().new Solution();
         int[] res = sol.problem();
