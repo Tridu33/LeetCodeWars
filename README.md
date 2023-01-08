@@ -13,3 +13,22 @@ or
 ```bash
 cabal new-build && cabal v2-run
 ```
+
+Open javaOJ folder by IDEA.
+
+## deploy
+
+- gh-pages
+
+```md
+cd docs && mkdocs gh-deploy --clean && mkdocs new . && mkdocs build
+mkdocs serve
+```
+
+- main
+
+```bash
+git status && git add . && git commit -m "upgrade for my LeetCodeWars."  && git push
+```
+
+
