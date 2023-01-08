@@ -1,1 +1,0 @@
-mkdocs new . && mkdocs build && mkdocs serve
