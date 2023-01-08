@@ -22,7 +22,7 @@ synopsis:            tridu33's code for LeetCode & CodeWars
 -- description:
 
 -- URL for the project homepage or repository.
-homepage:            https://tridu33.github.io/LeetCodeWars
+homepage:            https://tridu33.github.io/LeetCodeWars/
 
 -- A URL where users can report bugs.
 -- bug-reports:
@@ -54,7 +54,10 @@ extra-source-files:  CHANGELOG.md, README.md
 
 library
   -- Modules exported by the library.
-  -- exposed-modules:
+  -- \LeetCodeWars>cabal v2-repl
+  -- Prelude Lib.GeometryModule> cubeArea 1.0
+  -- 6.0 
+  exposed-modules:    Lib.GeometryModule
 
   -- Modules included in this library but not exported.
   -- other-modules:

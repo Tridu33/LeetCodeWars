@@ -1,1 +1,1 @@
-cabal v2-repl
+cabal new-build && cabal v2-repl

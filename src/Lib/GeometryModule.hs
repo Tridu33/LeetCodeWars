@@ -1,4 +1,4 @@
-module Lib.Geometry   
+module Lib.GeometryModule 
 ( sphereVolume   
  ,sphereArea   
  ,cubeVolume   
@@ -15,10 +15,10 @@ sphereArea radius = 4 * pi * (radius ^ 2)
  
 cubeVolume :: Float -> Float   
 cubeVolume side = cuboidVolume side side side   
- 
+
 cubeArea :: Float -> Float   
 cubeArea side = cuboidArea side side side   
- 
+
 cuboidVolume :: Float -> Float -> Float -> Float   
 cuboidVolume a b c = rectangleArea a b * c   
  
