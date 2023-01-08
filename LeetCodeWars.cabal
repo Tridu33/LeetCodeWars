@@ -13,7 +13,7 @@ name:                LeetCodeWars
 -- PVP summary:      +-+------- breaking API changes
 --                   | | +----- non-breaking API additions
 --                   | | | +--- code changes with no API change
-version:             0.1.0.0
+version:             1.0.0
 
 -- A short (one-line) description of the package.
 synopsis:            tridu33's code for LeetCode & CodeWars
@@ -77,9 +77,8 @@ executable LeetCodeWars
   main-is:             Main.hs
 
   -- Modules included in this executable, other than Main.
-  other-modules:       Lib.Geometry.Cube, 
-                       Lib.Geometry.Cuboid, 
-                       Lib.Geometry.Sphere
+  other-modules:       Lib.Geometry.Cube, Lib.Geometry.Cuboid,Lib.Geometry.Sphere, 
+                       Lib.Cur.Current
 
   -- LANGUAGE extensions used by modules in this package.
   -- other-extensions:

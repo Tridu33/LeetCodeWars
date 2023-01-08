@@ -1,6 +1,7 @@
 dist
 dist-*
 cabal-dev
+.vscode
 *.o
 *.hi
 *.hie
@@ -21,3 +22,5 @@ cabal.project.local
 cabal.project.local~
 .HTF/
 .ghc.environment.*
+gitIgnored
+temp
