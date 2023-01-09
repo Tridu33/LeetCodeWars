@@ -1,0 +1,3 @@
+java "-cp" 'C:\tridu33\FPds\LeetCodeWars\javaOJ\target\classes' 'com.tridu33.mineOJ.Temp' 
+@REM java "-cp" 'C:\tridu33\FPds\LeetCodeWars\javaOJ\target\classes' 'com.tridu33.mineOJ.Problems.Caculator' 
+@REM 1+2
