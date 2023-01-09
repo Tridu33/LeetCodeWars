@@ -30,3 +30,5 @@ mkdocs serve
 ```bash
 git status && git add . && git commit -m "upgrade for my LeetCodeWars."  && git push
 ```
+
+The root directory is for Windows 10, Folder 'HaskellCodeSpace' is for `Linux codespaces-5e05fb 5.4.0-1098-azure #104~18.04.2-Ubuntu SMP Tue Nov 29 12:13:35 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux` in Github CodeSpace.
