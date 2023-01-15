@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.backtrack;
+package com.tridu33.mineOJ.Graph.backtrack;
 
 import java.util.*;
 import java.lang.*;

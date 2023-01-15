@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.BFS;
+package com.tridu33.mineOJ.Graph.BFS;
 
 
 import java.lang.*;

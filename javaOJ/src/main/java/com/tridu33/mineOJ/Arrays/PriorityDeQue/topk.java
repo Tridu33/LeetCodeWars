@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.PriorityDeQue;
+package com.tridu33.mineOJ.Arrays.PriorityDeQue;
 
 
 import java.lang.*;

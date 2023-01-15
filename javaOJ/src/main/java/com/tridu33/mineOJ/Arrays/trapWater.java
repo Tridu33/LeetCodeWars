@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Problems;
+package com.tridu33.mineOJ.Arrays;
 
 import java.lang.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Sort;
+package com.tridu33.mineOJ.Arrays;
 
 import java.lang.*;
 import java.util.*;

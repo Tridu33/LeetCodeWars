@@ -1,8 +1,7 @@
-package com.tridu33.mineOJ.SlidingWindows;
+package com.tridu33.mineOJ.Arrays.SlidingWindows;
 
 //https://leetcode.cn/problems/max-consecutive-ones-iii/solutions/608931/zui-da-lian-xu-1de-ge-shu-iii-by-leetcod-hw12/?orderBy=most_votes
 import java.lang.*;
-import java.util.*;
 
 /*
 1寻找最长：

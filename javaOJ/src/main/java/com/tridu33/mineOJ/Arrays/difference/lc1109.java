@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.difference;
+package com.tridu33.mineOJ.Arrays.difference;
 
 import java.lang.*;
 import java.util.*;
