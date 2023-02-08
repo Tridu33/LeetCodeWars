@@ -1,4 +1,4 @@
-package leetcode.editor.cn.debug;
+package com.tridu33.mineOJ.Simulation;
 /**
  * @Date 1/10/2023.
  */
