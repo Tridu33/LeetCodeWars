@@ -1,12 +1,12 @@
-package  com.tridu33.mineOJ;
+package com.tridu33.mineOJ;
 /**
  * @Date 1/8/2023.
  */
- 
+
 import java.lang.*;
 import java.util.*;
 
-public class  Temp {
+public class Temp {
     public static void main(String[] args) {
         Solution sol = new Temp().new Solution();
         int[] res = sol.problem();
@@ -15,7 +15,7 @@ public class  Temp {
 
     public class Solution {
 
-        public int[] problem( ) {
+        public int[] problem() {
             return new int[0];
         }
     }

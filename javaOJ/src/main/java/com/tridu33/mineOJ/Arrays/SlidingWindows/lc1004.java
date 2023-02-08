@@ -3,40 +3,7 @@ package com.tridu33.mineOJ.Arrays.SlidingWindows;
 //https://leetcode.cn/problems/max-consecutive-ones-iii/solutions/608931/zui-da-lian-xu-1de-ge-shu-iii-by-leetcod-hw12/?orderBy=most_votes
 import java.lang.*;
 
-/*
-1寻找最长：
-如果窗口满足条件，R向右滑动扩大窗口，更新最优值；
-如果窗口不满足条件，L向右缩小窗口。
-2寻找最短：
-如果窗口满足条件，L向右滑动扩大窗口，更新最优值；
-如果窗口不满足条件，R向右缩小窗口。
 
-//最长模板:
-初始化left, right, result, bestResult
-for (右指针没有到结尾) {
-    窗口扩大, 加入right对应元素, 更新当前result
-    while (result不满足要求) {
-        窗口缩小, 移除left对应元素, left右移
-    }
-    更新最优结果bestResult
-    right++;
-}
-返回bestResult;
-
-
-//最短模板:
-初始化left, right, result, bestResult
-for (右指针没有到结尾) {
-    窗口扩大, 加入right对应元素, 更新当前result
-    while (result满足要求) {
-        更新最优结果bestResult
-        窗口缩小, 移除left对应元素, left右移
-    }
-    right++;
-}
-返回bestResult;
-
-* */
 public class lc1004 {
     public static void main(String[] args) {
         Solution sol = new lc1004().new Solution();
