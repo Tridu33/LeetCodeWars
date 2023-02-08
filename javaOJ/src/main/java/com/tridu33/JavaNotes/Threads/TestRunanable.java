@@ -1,4 +1,4 @@
-package JavaNotes.Threads;
+package com.tridu33.JavaNotes.Threads;
 public class TestRunanable {
 
     /**

@@ -1,10 +1,8 @@
-package JavaNotes.Threads;
+package com.tridu33.JavaNotes.Threads;
 
 // Java program to illustrate Runnable
 // for random number generation
         import java.util.Random;
-        import java.util.concurrent.Callable;
-        import java.util.concurrent.FutureTask;
 
 class RunnableExample implements Runnable
 {

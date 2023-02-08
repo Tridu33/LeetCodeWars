@@ -1,4 +1,4 @@
-package JavaNotes.Threads;
+package com.tridu33.JavaNotes.Threads;
 // Java program to illustrate Callable and FutureTask
 // for random number generation
 

@@ -1,6 +1,5 @@
-package JavaNotes.DesignPattern;
+package com.tridu33.JavaNotes.DesignPattern;
 import java.lang.*;
-import java.util.*;
 
 public class mySingletons {
     public static void main(String[] args) {

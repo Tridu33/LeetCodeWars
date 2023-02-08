@@ -1,4 +1,4 @@
-package JavaNotes;
+package com.tridu33.JavaNotes;
 
 import java.util.*;
 import java.lang.*;
