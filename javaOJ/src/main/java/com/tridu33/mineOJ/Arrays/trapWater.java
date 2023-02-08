@@ -2,7 +2,8 @@ package com.tridu33.mineOJ.Arrays;
 
 import java.lang.*;
 import java.util.*;
-
+// https://www.bilibili.com/video/BV1Qg411q7ia/
+// 单调栈，前后缀分解，双向双指针 的模板题
 public class trapWater {
     public static void main(String[] args) {
         Solution sol = new trapWater().new Solution();

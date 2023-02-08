@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Simulation;
+package com.tridu33.mineOJ.Rec_memo_DP;
 
 /**
  * @Date 2/8/2023.
@@ -6,9 +6,7 @@ package com.tridu33.mineOJ.Simulation;
 
 import java.lang.*;
 import java.util.*;
-
 /* @Desc:
-
 示例 1：
 
 输入：amount = 5, coins = [1, 2, 5]
@@ -27,13 +25,13 @@ import java.util.*;
 
 输入：amount = 10, coins = [10]
 输出：1
- */
-public class lc2241 {
-    public static void main(String[] args) {
-        Solution sol = new lc2241().new Solution();
-        System.out.println(sol.change(10, new int[]{10}));
-    }
 
+ */
+public class lc518coinChange2 {
+    public static void main(String[] args) {
+        Solution sol = new lc518coinChange2().new Solution();
+        System.out.println(sol.change(10,new int[] {10}));
+    }
     class Solution {
         public int change(int amount, int[] coins) {
             int[] dp = new int[amount + 1];
@@ -48,4 +46,6 @@ public class lc2241 {
     }
 
 
+
 }
+
