@@ -1,14 +1,14 @@
-package com.tridu33.JavaNotes.Threads;
+package com.tridu33.JavaNotes.thread;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class callable implements Callable<Object> {
+public class Callable implements java.util.concurrent.Callable<Object> {
     private int taskNum;
 
-    public callable(int taskNum) {
+    public Callable(int taskNum) {
         this.taskNum = taskNum;
     }
     //1，2主要区别是创建线程的方式
@@ -30,7 +30,7 @@ public class callable implements Callable<Object> {
         ExecutorService pool = Executors.newFixedThreadPool(taskSize);
         List<Future> list = new ArrayList<Future>();
         for (int i = 0; i < taskSize; i++) {
-            Callable c = new callable(i);
+            java.util.concurrent.Callable c = new Callable(i);
             // 执行任务并获取Future对象
             Future f = pool.submit(c);
             list.add(f);
@@ -58,7 +58,7 @@ public class callable implements Callable<Object> {
         FutureTask[] randomNumberTasks = new FutureTask[5];
         List<Future> list = new ArrayList<Future>();
         for (int i = 0; i < randomNumberTasks.length; i++) {
-            Callable c = new callable(i);
+            java.util.concurrent.Callable c = new Callable(i);
             // 执行任务并获取Future对象
             randomNumberTasks[i]=   new FutureTask(c);
 

@@ -1,4 +1,4 @@
-package com.tridu33.JavaNotes.Threads;
+package com.tridu33.JavaNotes.thread;
 
 // Java program to illustrate Runnable
 // for random number generation

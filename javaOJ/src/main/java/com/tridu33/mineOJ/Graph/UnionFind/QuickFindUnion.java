@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Problems;
+package com.tridu33.mineOJ.Graph.UnionFind;
 
 
 import java.util.LinkedList;
