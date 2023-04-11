@@ -97,7 +97,7 @@ public class TestKit {
 //            System.out.println(1 / 0);// Exception
         }
         private void testFinalizeOnlyRunOnce(){
-            System.out.println("");
+            System.out.println("FinalizeOnlyRunOnce");
 
         }
         private void testInc(){
@@ -109,23 +109,23 @@ public class TestKit {
 
         }
         private void testIntOverFlow(){
-            System.out.println("");
+            System.out.println("Int overflow");
 
         }
         private void testLinkedHashMap(){
-            System.out.println("");
+            System.out.println("HashMap");
 
         }
         private void testMap(){
-            System.out.println("");
+            System.out.println("Map");
 
         }
         private void testPrecision(){
-            System.out.println("");
+            System.out.println("断言");
 
         }
         private void testRex(){
-            System.out.println("");
+            System.out.println("Regex");
 
         }
         private void testRemoveInFor(){
@@ -133,7 +133,7 @@ public class TestKit {
 
         }
         private void testStreamLazyEvaluation(){
-            System.out.println("");
+            System.out.println("惰性求值");
 
         }
         private void testStringSplit(){

@@ -24,7 +24,17 @@ public class topk {
                             new Comparator<Map.Entry<Integer,Integer>>(){
                                 @Override
                                 public int compare(Map.Entry<Integer,Integer> o1, Map.Entry<Integer,Integer> o2) {
-                                    return o1.getValue() - o2.getValue();
+                                    return o1.getValue() - o2.getValue();//默认小根堆o1-o2
+                                    /*
+                                    小根堆升序的等价写法：
+                                    o1===o2 | return  0;
+                                    o1 > o2 | return  1;// (this)o1-(next)o2>0
+                                    o1 < o2 | return -1;// o1-o2<0
+                                    大根堆降序的等价写法：
+                                    o1===o2 | return  0;
+                                    o1 > o2 | return -1;// (next)o2-(this)o1>0
+                                    o1 < o2 | return  1;// o2-o1<0
+                                    * */
                                 }
                             });
 //        PriorityQueue<Map.Entry<Integer,Integer>> minHeap = new PriorityQueue<>((o1,o2)->o1.getValue()-o2.getValue());
@@ -46,7 +56,8 @@ public class topk {
                 map.put(num, map.getOrDefault(num,0)+1);
             };
             Set<Map.Entry<Integer,Integer>> entries = map.entrySet();
-            // small小根堆:o1-o2
+            // small小根堆:o1-o2(默认升序，数组第一个值是队头)
+
             // big  大根堆:o2-o1
             PriorityQueue<Map.Entry<Integer,Integer>> maxHeap =
                     new PriorityQueue<>((o1,o2)->o2.getValue()-o1.getValue());
