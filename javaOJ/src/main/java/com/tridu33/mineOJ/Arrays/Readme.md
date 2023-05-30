@@ -1,4 +1,28 @@
 [TOC]
+# ACII码操作
+
+
+小写字母计数
+大写字母计数
+大小写字母计数
+大小写字母加数字计数
+数字字符转数字
+
+409
+
+# 子序列合集
+392 115 940 1143 727 1055
+
+# 子数组合集
+209 974 560 152 53 718 795
+
+
+分治法
+https://zhuanlan.zhihu.com/p/72734354
+https://www.jianshu.com/p/6022bcdd6b62
+刷题推荐：4、23、53、215、 240、327
+
+
 # List<\*>
 ```java
 List<Integer> list = new ArrayList<>;

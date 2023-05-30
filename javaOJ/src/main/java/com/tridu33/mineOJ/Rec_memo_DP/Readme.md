@@ -13,3 +13,8 @@ https://leetcode.cn/circle/article/2Xxlw3/
 ```java
 
 ```
+
+
+动态规划
+https://blog.csdn.net/qq_16664581/article/details/89598243 （经典求解套路，看官方题解）
+刷题推荐： 5、10、300、647

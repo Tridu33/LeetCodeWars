@@ -1,4 +1,5 @@
 从贪心到Matriod拟阵到DP
+双指针贪心 3无重复字符的最长子串 11盛最多的水 
 
 经典贪心题型
 
@@ -8,6 +9,9 @@
 621
 1282
 1665
+贪心算法https://zhuanlan.zhihu.com/p/25769975
+https://www.jianshu.com/p/fede80bad3f1
+刷题推荐：253、406、621
 
 任务多机调度
 贪心法（经典作业调度问题） https://huaweicloud.csdn.net/638071f7dacf622b8df88539.html
@@ -20,11 +24,13 @@
 
 区间选点区间覆盖区间完全覆盖总结 https://blog.nowcoder.net/n/433a562926894da88c164c3a6f0d7bd7
 区间覆盖经典的贪心算法问题 Interval Scheduling（区间调度问题）
-45
-55
+45 跳跃游戏2
+55 跳跃游戏
 56
 763
 452 最少的箭引爆气球
+1540 K次操作转变字符串
+1231 分享巧克力
 453
 330
 1024

@@ -20,7 +20,6 @@ package com.tridu33.mineOJ.Graph.BFS;
 
          System.out.println(Arrays.deepToString(sol.highestPeak(new int[][]{{0, 0, 1}, {1, 0, 0}, {0, 0, 0}})));
          System.out.println(Arrays.deepToString(sol.highestPeak(new int[][]{{0, 1}, {0, 1}})));
-
      }
 
 class Solution {

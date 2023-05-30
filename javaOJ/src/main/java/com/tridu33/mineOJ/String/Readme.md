@@ -12,3 +12,11 @@ str.方法 isempty()length()charAt(idx)subString([begin,end)])
 
 String[] group = sr.split("-");//注意常见几个特殊转义字符的写法
 ```
+5最长回文子串
+93复原IP地址 必做
+43 字符串相乘 必做
+227基本计算器
+# String数组作为背景的动态规划类题型
+
+
+
