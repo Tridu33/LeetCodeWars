@@ -1,4 +1,4 @@
-package com.tridu33.funny.Actor.CPS;
+package com.tridu33.funny.CPS;
 
 class Test {
 

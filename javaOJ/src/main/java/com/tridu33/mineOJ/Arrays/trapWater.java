@@ -7,11 +7,11 @@ import java.util.*;
 public class trapWater {
     public static void main(String[] args) {
         Solution sol = new trapWater().new Solution();
-        System.out.println(sol.method(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
+        System.out.println(sol.trap(new int[]{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}));
     }
 
     class Solution1 {
-        public int method(int[] height) {
+        public int trap(int[] height) {
             int res = 0;
             for (int i = 1; i < height.length - 1; i++) {
                 int leftMax = 0, rightMax = 0;
@@ -32,7 +32,7 @@ public class trapWater {
     }
 
     class Solution3 {
-        public int method(int[] height) {
+        public int trap(int[] height) {
             int res = 0;
             for (int i = 1; i < height.length - 1; i++) {
                 int leftMax = 0, rightMax = 0;
@@ -51,7 +51,7 @@ public class trapWater {
     }
 
     class Solution4 {
-        public int method(int[] height) {
+        public int trap(int[] height) {
             int res = 0, len = height.length;
             int dp[][] = new int[2][len];
             dp[0][0] = height[0];// leftMax
@@ -72,7 +72,7 @@ public class trapWater {
     }
 
     class Solution2 {
-        public int method(int[] height) {
+        public int trap(int[] height) {
             int len = height.length, res = 0, leftMax = 0, rightMax = 0, left = 0, right = len - 1;
             while (left <= right) {
                 if (leftMax <= rightMax) {
@@ -88,7 +88,7 @@ public class trapWater {
     }
 
     class Solution {
-        public int method(int[] height) {
+        public int trap(int[] height) {
             int BottomIdx = 0, len = height.length, res = 0;
             Deque<Integer> stk = new ArrayDeque<>();
             for (int idx = 0; idx < len; idx++) {

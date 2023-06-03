@@ -1,4 +1,4 @@
-package com.tridu33.funny.Actor.CPS;
+package com.tridu33.funny.CPS;
 //是否所有的循环都能用递归代替？ - 酱紫君的回答 - 知乎
 //https://www.zhihu.com/question/29373492/answer/2963435728
 public class CPS {

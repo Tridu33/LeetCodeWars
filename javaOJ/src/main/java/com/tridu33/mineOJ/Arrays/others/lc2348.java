@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Arrays;
+package com.tridu33.mineOJ.Arrays.others;
 
 import java.math.BigInteger;
 /* 题目
@@ -31,8 +31,6 @@ import java.math.BigInteger;
 * */
 
 import java.lang.*;
-import java.math.BigInteger;
-import java.util.*;
 
 public class lc2348 {
     public static void main(String[] args) {

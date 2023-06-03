@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Arrays;
+package com.tridu33.mineOJ.Arrays.others;
 
 /* 题目
 
@@ -15,7 +15,6 @@ package com.tridu33.mineOJ.Arrays;
 * */
 
 import java.lang.*;
-import java.util.*;
 
 public class lc1539 {
     public static void main(String[] args) {

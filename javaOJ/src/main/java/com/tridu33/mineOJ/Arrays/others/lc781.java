@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Arrays;
+package com.tridu33.mineOJ.Arrays.others;
 
 
 /* 题目

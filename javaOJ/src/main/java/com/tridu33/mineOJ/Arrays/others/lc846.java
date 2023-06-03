@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Arrays;
+package com.tridu33.mineOJ.Arrays.others;
 /**
  * @Date 1/16/2023.
  */
