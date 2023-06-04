@@ -60,8 +60,7 @@
 1167 连接棒材的最低费用
 
 
-区间选点区间覆盖区间完全覆盖总结
-https://blog.nowcoder.net/n/433a562926894da88c164c3a6f0d7bd7
+[区间选点区间覆盖区间完全覆盖总结](https://blog.nowcoder.net/n/433a562926894da88c164c3a6f0d7bd7)
 区间覆盖经典的贪心算法问题
 Interval Scheduling（区间调度问题）
 435 无重叠区间
