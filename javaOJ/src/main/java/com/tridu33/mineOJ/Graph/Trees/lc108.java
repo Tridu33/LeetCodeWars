@@ -1,6 +1,5 @@
-package com.tridu33.mineOJ.Trees;
+package com.tridu33.mineOJ.Graph.Trees;
 import java.lang.*;
-import java.util.*;
 /*
 * lc
 */

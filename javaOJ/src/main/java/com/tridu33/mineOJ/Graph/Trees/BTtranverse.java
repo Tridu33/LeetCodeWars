@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Trees;
+package com.tridu33.mineOJ.Graph.Trees;
 
 import java.util.*;
 public class BTtranverse {

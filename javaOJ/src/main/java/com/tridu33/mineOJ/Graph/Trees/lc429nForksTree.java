@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Trees;
+package com.tridu33.mineOJ.Graph.Trees;
 /**
  * @Date 2/8/2023.
  */
