@@ -1,0 +1,28 @@
+package com.tridu33.mineOJ.Greedy;
+
+
+import java.lang.*;
+import java.util.*;
+
+public class lc406 {
+    class Solution {
+
+        public int[][] reconstructQueue(int[][] people) {
+            Arrays.sort(people, (p1, p2) -> p1[0] != p2[0] ? Integer.compare(p2[0], p1[0]) : Integer.compare(p1[1], p2[1]));
+            List<int[]> list = new ArrayList<>();
+            for (int[] i : people) {
+                list.add(i[1], i);
+            }
+            return list.toArray(new int[people.length][2]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new lc406().new Solution();
+        System.out.println(Arrays.deepToString(
+                sol.reconstructQueue(new int[][]{
+                        {7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}
+                })
+        ));
+    }
+}
