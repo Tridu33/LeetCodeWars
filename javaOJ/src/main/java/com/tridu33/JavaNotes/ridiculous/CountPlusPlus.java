@@ -1,6 +1,6 @@
 package com.tridu33.JavaNotes.ridiculous;
 /**
- * @Date 5/7/2023$.
+ * 
  */
 
 import java.lang.*;

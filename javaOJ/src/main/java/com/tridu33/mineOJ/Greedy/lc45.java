@@ -1,6 +1,6 @@
 package com.tridu33.mineOJ.Greedy;
 /**
- * @Date 4/11/2023$.
+ * 
  */
 
 import java.lang.*;

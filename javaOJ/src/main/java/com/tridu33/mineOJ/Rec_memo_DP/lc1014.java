@@ -1,6 +1,6 @@
 package com.tridu33.mineOJ.Rec_memo_DP;
 /**
- * @Date 2/12/2023$.
+ * 
  */
 
 import java.lang.*;

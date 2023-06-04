@@ -1,7 +1,5 @@
 package com.tridu33.mineOJ.BitsOperator;
-/**
- * @Date 6/4/2023$.
- */
+
 
 import java.lang.*;
 import java.util.*;

@@ -1,6 +1,6 @@
 package com.tridu33.thread;
 /**
- * @Date 3/20/2023$.
+ * 
  */
 
 import java.lang.*;

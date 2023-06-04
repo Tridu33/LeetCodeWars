@@ -1,6 +1,6 @@
 package com.tridu33.thread.ThreadPool;
 /**
- * @Date 5/2/2023$.
+ * 
  */
 import java.util.ArrayList;
 import java.util.List;

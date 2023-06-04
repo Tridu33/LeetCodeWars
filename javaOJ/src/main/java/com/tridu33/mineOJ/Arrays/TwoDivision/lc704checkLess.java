@@ -1,6 +1,6 @@
 package com.tridu33.mineOJ.Arrays.TwoDivision;
 /**
- * @Date 5/30/2023$.
+ * 
  */
 
 import java.lang.*;
