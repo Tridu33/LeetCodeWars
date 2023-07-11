@@ -1,0 +1,66 @@
+package com.tridu33.mineOJ;
+
+import java.lang.*;
+import java.util.*;
+
+class Row implements Comparable<Row> {
+    // 根据 order 排序 row： 利用Arrays.compare(this.arr, o.arr)
+    int[] order;
+    int[] row;
+    int[] arr;
+
+    Row(int[] row, int[] order) {
+        this.row = row;
+        this.order = order;
+        List<Integer> arrList = new ArrayList<>();
+        for (int i = 0; i < order.length; i++) {
+            int index = order[i];
+            arrList.add(row[index]);
+        }
+        this.arr = Arrays.stream(arrList.toArray(new Integer[0])).mapToInt(Integer::valueOf).toArray();
+    }
+
+    @Override
+    public int compareTo(Row o) {
+        return Arrays.compare(this.arr, o.arr);
+    }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(this.row);
+    }
+}
+public class customizeSortIndex {
+    private static int sort(Integer[] o1, Integer[] o2, char[] array, int i) {
+        // 最后一位
+        if (i == array.length - 1) {
+            return o1[array[i] - 'a'] - o2[array[i] - 'a'];
+        }
+
+        if (o1[array[i] - 'a'] == o2[array[i] - 'a']) {
+            return sort(o1, o2, array, ++i);
+        }
+        return o1[array[i] - 'a'] - o2[array[i] - 'a'];
+    }
+    public static void main(String[] args) {
+        List<Row> temp = new ArrayList<>();
+        int[] order = new int[]{1,0};
+        temp.add(new Row(new int[]{1,3},order));
+        temp.add(new Row(new int[]{1,2},order));
+        temp.add(new Row(new int[]{2,2},order));
+        Collections.sort(temp);
+        System.out.println(temp);
+
+
+        List<Integer[]> ls = new ArrayList<>();
+        ls.add(new Integer[]{1,3});
+        ls.add(new Integer[]{1,2});
+        ls.add(new Integer[]{2,2});
+        char[] keyChars= new char[]{'b','a'};
+        Collections.sort(ls, (row1, row2) -> sort(row1, row2, keyChars, 0));
+        for (Integer[] row:
+             ls) {
+            System.out.print(Arrays.toString(row)+", ");
+        }
+    }
+}
