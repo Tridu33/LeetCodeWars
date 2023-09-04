@@ -1,3 +1,3 @@
 main :: IO ()
 main = do
-  print "Hello World!"
+  print "ghc --make Hello.hs!"

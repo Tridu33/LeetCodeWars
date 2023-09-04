@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Graph.Trees.BFS;
+package com.tridu33.mineOJ.Graph.BFS;
 
 /* 题目
 输入：isWater = [[0,1],[0,0]]

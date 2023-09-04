@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Graph.Trees.BST;
+package com.tridu33.mineOJ.Graph.BST;
 public class TreeNode {
     public int val;
     public TreeNode left;

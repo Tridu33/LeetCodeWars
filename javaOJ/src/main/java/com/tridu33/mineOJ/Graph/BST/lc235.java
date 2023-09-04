@@ -1,7 +1,6 @@
-package com.tridu33.mineOJ.Graph.Trees.BST;
+package com.tridu33.mineOJ.Graph.BST;
 
 import java.lang.*;
-import java.util.*;
 
 /* @Desc:
 

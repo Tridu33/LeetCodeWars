@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Graph.Trees.BFS;
+package com.tridu33.mineOJ.Graph.BFS;
 import com.tridu33.mineOJ.Graph.Trees.TreeNode;
 
 import java.util.ArrayDeque;

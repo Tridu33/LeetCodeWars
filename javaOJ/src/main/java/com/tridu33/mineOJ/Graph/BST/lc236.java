@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Graph.Trees.BST;
+package com.tridu33.mineOJ.Graph.BST;
 
 import com.tridu33.mineOJ.Graph.Trees.TreeNode;
 

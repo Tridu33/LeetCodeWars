@@ -76,5 +76,9 @@ Deque<*> stk = new LinkedList<*>();当作队列用的时候推荐
 Random rand = new Random(种子);
 int i = rand.nextInt(100);//[0,100)整数
 ```
+双指针包含：
+- 滑动窗口：最大最小
+- 左右指针：不同/相同数组
+- 快慢指针：链表成环
 
 

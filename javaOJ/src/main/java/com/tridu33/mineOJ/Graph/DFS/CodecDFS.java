@@ -1,4 +1,4 @@
-package com.tridu33.mineOJ.Graph.Trees.DFS;
+package com.tridu33.mineOJ.Graph.DFS;
 
 import com.tridu33.mineOJ.Graph.Trees.TreeNode;
 
