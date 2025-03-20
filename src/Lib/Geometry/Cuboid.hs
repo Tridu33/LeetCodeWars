@@ -2,7 +2,7 @@ module Lib.Geometry.Cuboid
 ( volume   
  ,area   
 ) where   
- 
+
 volume :: Float -> Float -> Float -> Float   
 volume a b c = rectangleArea a b * c   
  
