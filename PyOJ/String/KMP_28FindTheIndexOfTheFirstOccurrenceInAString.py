@@ -4,6 +4,41 @@ class Solution(object):
     前缀后缀，就是已遍历过的部分的前面是否等于后面，
     next数组，就是统计相等元素的数量
     """
+    def build_next(self, patt):
+        next = [0] # 初始值
+        prefix_len = 0 # 当前共同前后缀长度
+        i = 0
+        while i < len(patt):
+            if patt[prefix_len] == patt[i]:
+                prefix_len += 1
+                next.append(prefix_len)
+                i += 1
+            else:
+                if prefix_len == 0:
+                    next.append(0)
+                    i += 1
+                else:
+                    prefix_len = next[prefix_len - 1]
+        return next
+        pass
+
+    def kmp(self, string, patt):
+        next = self.build_next(patt)
+
+        i = 0
+        j = 0
+        while i < len(string):
+            if string[i] == patt[i]:
+                j += 1
+                i += 1
+            elif j > 0:
+                j = next[j-1]
+            else:
+                i += 1
+
+            if j == len(patt):
+                return i-j
+
     def strStr(self, haystack, needle):
         n = len(haystack)
         m = len(needle)
